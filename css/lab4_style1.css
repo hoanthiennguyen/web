@@ -45,12 +45,44 @@ footer{
 	padding-left:10px;
 }
 aside a{
-	margin:30px;
 	text-decoration:none;
 }
 aside a:hover{
 	color:#00C;
 	font-size:18.5px;
 }
+aside img{
+	height:110px;
+	width:95%;
+	
+}
+aside table td{
+	text-align:justify;
+	width:50%;
+	padding-right:5px;
+}
+h2{
+	color:#F36;
+	text-align:center;
+	margin:0;
+	height:40px;
+	background-color:#3F0;
+	line-height:40px;
+}
+.share{
+	float:right;
+	width:200px;
+	height:100px;
+}
+.address{
+	width:650px;
+	float:left;
+	padding-top:0;
+}
+.copyright{
+	clear:both;
+	text-align:center;
+}
+
 
 
