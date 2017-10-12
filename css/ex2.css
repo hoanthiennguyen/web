@@ -18,8 +18,8 @@
 .promotion{
 	position:absolute;
 	top:0;
-	left:55%;
-	width:44%;
+	left:60%;
+	width:38%;
 	height:30px;
 	line-height:30px;
 	-webkit-border-radius: 30px;
@@ -47,8 +47,9 @@ del{
 @media screen and (max-width: 768px){
 	.big{height:1050px;}
 	.pic{width:45%; height:30%; margin-left:4%;}
-	.promotion{font-size:14px;}
+	.promotion{font-size:14px; width:100px; left:110px}
 }
 @media screen and (max-width: 425px){
 	.pic{width:85%; margin-left:7.5%;}
+	.promotion{width:120px;}
 }
