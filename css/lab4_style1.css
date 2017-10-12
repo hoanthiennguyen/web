@@ -92,7 +92,10 @@ h3{
 		width:100%;
 	}
 	footer{
-		height:220px;
+		height:250px;
+	}
+	.share{
+		width:30%;
 	}
 	aside img{
 	margin-left:17%;
