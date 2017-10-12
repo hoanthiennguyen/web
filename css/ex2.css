@@ -47,7 +47,7 @@ del{
 @media screen and (max-width: 768px){
 	.big{height:1050px;}
 	.pic{width:45%; height:30%; margin-left:4%;}
-	.promotion{font-size:14px; width:100px; }
+	.promotion{font-size:14px; }
 }
 @media screen and (max-width: 425px){
 	.pic{width:85%; margin-left:7.5%;}
