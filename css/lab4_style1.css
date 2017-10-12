@@ -1,20 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
-.container{
-	margin:0 auto;
-}
+
 nav{
 	background-color:#0CC;
 	text-decoration:none;
 	height:30px;
 	font-size:24px;
-	padding-left:20px;
+	padding-left:2%px;
 }
 nav a{
-	width:10%;
+	width:15%;
 	float:left;
 	text-decoration:none;
-	margin-left:30px;
+	margin-left:3%;
 	text-align:center;
 	line-height:30px;
 }
@@ -25,7 +23,7 @@ nav a:hover{
 article{
 	width:70%;
 	height:720px;
-	background-image: url(../images/b3.jpg);
+	background-image: url(../images/back2.png);
 	float:left;
 	margin-bottom:10px;
 }
@@ -43,7 +41,7 @@ footer{
 	height:150px;
 	background-color:#CF6;
 	clear:both;
-	padding-left:10px;
+	padding-left:1%;
 }
 aside a{
 	text-decoration:none;
@@ -54,15 +52,16 @@ aside a:hover{
 }
 aside img{
 	height:110px;
-	width:95%;
+	width:90%;
+	margin-top:5px;
 	
 }
 aside table td{
-	text-align:justify;
+	
 	width:50%;
 	padding-right:5px;
 }
-h2{
+h3{
 	color:#F36;
 	text-align:center;
 	margin:0;
@@ -72,11 +71,11 @@ h2{
 }
 .share{
 	float:right;
-	width:200px;
-	height:100px;
+	width:20%;
+	height:30%;
 }
 .address{
-	width:650px;
+	width:60%;
 	float:left;
 	padding-top:0;
 }
@@ -84,6 +83,51 @@ h2{
 	clear:both;
 	text-align:center;
 }
-
+@media screen and (max-width: 768px){
+	article{
+		width:100%;
+		height:1075px;
+	}
+	aside{
+		width:100%;
+	}
+	footer{
+		height:175px;
+	}
+	aside img{
+	margin-left:17%;
+	height:110px;
+	width:60%;
+	
+}
+}
+@media screen and (max-width: 425px){
+	nav{
+		font-size:15px
+	}
+	footer{
+		height:275px;
+		font-size:15px;
+	}
+	article{
+		width:100%;
+		height:1975px;
+	}
+	aside img{
+	margin-left:0;
+	width:90%;
+	
+	}
+	.share{
+		width:52%;
+	}
+	.address{
+		width:100%;
+	}
+	h3{
+		line-height:30px;
+		height:30px;
+	}
+}
 
 

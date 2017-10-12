@@ -32,8 +32,9 @@ border-radius: 40px;
 
 .pic img{
 	width:65%;
-	height:72%;
+	height:75%;
 	z-index:0;
+	margin-left:1%;
 	
 }
 p{
@@ -44,7 +45,8 @@ del{
 	color:#666;
 }
 @media screen and (max-width: 768px){
-	.pic{width:45%;}
+	.big{height:1050px;}
+	.pic{width:45%; height:30%; margin-left:4%;}
 }
 @media screen and (max-width: 425px){
-	.pic{width:90%;}
+	.pic{width:85%; margin-left:7.5%}
