@@ -17,11 +17,11 @@
 }
 .promotion{
 	position:absolute;
-	top:0px;
+	top:0;
 	left:60%;
 	width:37%;
-	height:9%;
-	line-height:9%;
+	height:30px;
+	line-height:30px;
 	-webkit-border-radius: 30px;
 -moz-border-radius: 30px;
 border-radius: 30px;
