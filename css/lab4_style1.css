@@ -150,6 +150,13 @@ h3{
 		line-height:30px;
 		height:30px;
 	}
+	#myBtn {
+	bottom: 15px; /* Place the button at the bottom of the page */
+    right: 20px;
+	}
+	header img{
+		height:100px;
+	}
 }
 
 
