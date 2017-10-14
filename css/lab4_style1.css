@@ -23,7 +23,7 @@ nav a:hover{
 .leftindex{
 	width:70%;
 	height:720px;
-	
+	background-image:url(../images/back2.png);
 	float:left;
 	margin-bottom:10px;
 }
@@ -101,6 +101,11 @@ h3{
 #myBtn:hover {
     
 }
+table input{
+	height:40px;
+	width:300px;
+	background-color:#FFC;
+	}
 
 @media screen and (max-width: 768px){
 	.leftindex{
@@ -121,7 +126,8 @@ h3{
 	height:110px;
 	width:60%;
 	
-}
+	}
+	
 }
 @media screen and (max-width: 425px){
 	nav{
@@ -156,6 +162,10 @@ h3{
 	}
 	header img{
 		height:100px;
+	}
+	table input{
+		width:150px;
+		height:30px;
 	}
 }
 

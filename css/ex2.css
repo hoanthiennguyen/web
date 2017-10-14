@@ -6,7 +6,8 @@
 	height:700px;
 	width:95%;
 	margin-top:10px;
-	background-image:url(../images/back2.png);
+	
+	background-attachment:fixed;
 }
 .pic{
 	width:33%;
