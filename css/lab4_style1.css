@@ -20,14 +20,14 @@ nav a{
 nav a:hover{
 	color:#F36;
 }
-article{
+.leftindex{
 	width:70%;
 	height:720px;
-	background-image: url(../images/back2.png);
+	
 	float:left;
 	margin-bottom:10px;
 }
-aside{
+.rightindex{
 	width:29%;
 	height:720px;
 	background-color:#6C6;
@@ -43,20 +43,20 @@ footer{
 	clear:both;
 	padding-left:1%;
 }
-aside a{
+.rightindex a{
 	text-decoration:none;
 }
-aside a:hover{
+.rightindex a:hover{
 	color:#00C;
 	font-size:18.5px;
 }
-aside img{
+.rightindex img{
 	height:110px;
 	width:90%;
 	margin-top:5px;
 	
 }
-aside table td{
+.rightindex table td{
 	
 	width:50%;
 	padding-right:5px;
@@ -103,11 +103,11 @@ h3{
 }
 
 @media screen and (max-width: 768px){
-	article{
+	.leftindex{
 		width:100%;
 		height:1075px;
 	}
-	aside{
+	.rightindex{
 		width:100%;
 	}
 	footer{
@@ -116,7 +116,7 @@ h3{
 	.share{
 		width:30%;
 	}
-	aside img{
+	.rightindex img{
 	margin-left:17%;
 	height:110px;
 	width:60%;
@@ -131,10 +131,10 @@ h3{
 		height:220px;
 		font-size:15px;
 	}
-	article{
+	.leftindex{
 		height:1975px;
 	}
-	aside img{
+	.rightindex img{
 	margin-left:0;
 	width:90%;
 	
