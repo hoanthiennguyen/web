@@ -1,13 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
 .big{
-	text-align:center;	
-	height: 700px;
-	width:95%;
-	margin-top:10px;
-	
-	background-attachment:fixed;
+	height:1000px;
+	background-image:url(../images/back2.png);
 }
 .pic{
 	width:33%;
@@ -55,3 +50,4 @@ del{
 	.pic{width:85%; margin-left:7.5%;}
 	.promotion{width:120px; left:110px}
 }
+

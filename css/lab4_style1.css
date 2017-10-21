@@ -27,6 +27,7 @@ nav a:hover{
 	float:left;
 	margin-bottom:10px;
 }
+
 .rightindex{
 	width:29%;
 	height:720px;
@@ -102,7 +103,7 @@ h3{
     
 }
 table input{
-	height:40px;
+	height:30px;
 	width:300px;
 	background-color:#FFC;
 	}
