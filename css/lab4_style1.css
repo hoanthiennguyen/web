@@ -27,7 +27,26 @@ nav a:hover{
 	float:left;
 	margin-bottom:10px;
 }
-
+.about{
+	height:500px;
+	font-size:20px;
+	background-image:url(../images/newspaper.jpg);
+	padding-right:10%;
+	text-align:justify;
+	padding-left:5%;
+	padding-top:1%;
+}
+.ourname{
+	
+	font-style: italic;
+	font-size: 24px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	color:#090;
+}
+.subtitle{
+	color:#03F;
+}
 .rightindex{
 	width:29%;
 	height:720px;
@@ -128,6 +147,9 @@ table input{
 	width:60%;
 	
 	}
+	.about{
+		height:750px;
+	}
 	
 }
 @media screen and (max-width: 425px){
@@ -167,6 +189,16 @@ table input{
 	table input{
 		width:150px;
 		height:30px;
+	}
+	.ourname{
+		font-size:22px;
+	}
+	.subtitle{
+		font-size:21px;
+	}
+	.about{
+		
+		height:1000px;
 	}
 }
 
