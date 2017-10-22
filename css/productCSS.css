@@ -12,6 +12,38 @@
 	text-align:center;
 	position:relative;
 }
+.displays{
+	
+	position:absolute;
+	
+	z-index:3;
+	width:65%;
+	height:75%;
+	margin-left:18%;
+	cursor:pointer;
+	text-align:left;
+	
+	opacity:0;
+	background-color:#FF9;
+}
+.displays p{
+	color:#093;
+	margin-left:3%;
+	margin-top:0;
+	
+	
+}
+.name{
+	font-size: 26px;
+	font-weight:bold;
+	font-style:italic;
+}
+.rate{
+	font-size:24px;
+}
+.displays:hover{
+	opacity:0.8;
+}
 .promotion{
 	position:absolute;
 	top:0;
@@ -42,12 +74,37 @@ del{
 	color:#666;
 }
 @media screen and (max-width: 768px){
-	.big{height:1050px;}
-	.pic{width:45%; height:30%; margin-left:4%;}
+	.big{height:1500px;}
+	
+	p{
+		font-size:18px;
+	}
+	.name{
+		font-size:22px;
+		
+	}
+	.rate{
+		font-size:20px;
+	}
+	.pic{width:48%; height:30%; margin-left:2%;}
+	
 	.promotion{font-size:14px; }
 }
 @media screen and (max-width: 425px){
-	.pic{width:85%; margin-left:7.5%;}
+	.big{height:2300px;}
+	p{
+		font-size:16px
+	}
+	.name{ font-size:19px;}
+	.rate{ font-size:19px;}
+	.pic img{
+		height:80%;
+	}
+	.displays{
+		height:80%;
+	}
+	.pic{width:90%; height:16%; margin-left:7.5%;}
+	
 	.promotion{width:120px; left:110px}
 }
 
